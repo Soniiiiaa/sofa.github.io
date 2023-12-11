@@ -1,0 +1,22 @@
+body {
+   background-color:#fefafa; margin:0;
+  background-image: linear-gradient(0deg, rgb(193, 127, 193) 1px, transparent 1px), linear-gradient(90deg, rgb(193, 127, 193) 1px, transparent 1px);
+  background-size:15px 15px;
+  background-attachment:fixed;
+  }
+  .br{
+   color:navy;
+   font-family: Book Antiqua;
+}
+.br1{
+   color:green;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.br2{
+   color:red;
+   font-family: Courier 'Courier New', Courier, monospace;
+}
+.br3{
+   color: #336666;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

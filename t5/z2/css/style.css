@@ -1,0 +1,15 @@
+table{
+   width: 800px;
+   background-color: #b8b3e0;
+   border: 2px;
+}
+th{
+   background-color:#aa79c4 ;
+}
+td{
+   text-align: center;
+}
+.image{
+   background-image: url("../book.png");
+   width: 200px;
+}

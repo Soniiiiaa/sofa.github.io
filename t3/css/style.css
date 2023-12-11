@@ -1,0 +1,14 @@
+.uk{
+   width: 200px;
+   height: 200px;
+   border: 4px solid brown;
+}
+.pl{
+   width: 200px;
+   height: 200px;
+   border: 4px solid brown;  
+}
+body{
+   color: brown;
+}
+

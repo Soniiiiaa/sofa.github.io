@@ -1,0 +1,15 @@
+th,
+td{
+   width: 100px;
+   text-align: center;
+   border: 2px solid black;
+}
+th{
+   background-color: #CC3333;
+}
+td{
+   background-color: #FF6666;
+}
+table{
+   border: 5px solid black;
+}

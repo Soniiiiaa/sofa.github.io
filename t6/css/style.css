@@ -1,0 +1,49 @@
+body {
+   background-color:#fefafa; margin:0;
+  background-image: linear-gradient(0deg, rgb(152, 134, 240) 1px, transparent 1px), linear-gradient(90deg, rgb(152, 134, 240) 1px, transparent 1px);
+  background-size:15px 15px;
+  background-attachment:fixed;
+  }
+img{
+   padding: 1%;
+   width: 400px;
+   size: 190px;
+}
+div{
+   margin-bottom: 6%;
+}
+.br{
+   color: red;
+}
+.br1{
+   color: blue;
+}
+.foto{
+   width: 250px;
+   size: 95px;
+}
+.br2{
+   color: brown;
+   margin: 0%;
+}
+.foto2{
+   width: 75px;
+   size: 75px;
+   padding: 0%;
+}
+.br3{
+   color: orange;
+}
+.foto3{
+   width: 260px;
+   size: 260px;
+}
+.br4{
+   color: green;
+}
+.foto4{
+   display: block;
+  margin: 0 auto;
+   width: 550px;
+   height: 500px;
+}
