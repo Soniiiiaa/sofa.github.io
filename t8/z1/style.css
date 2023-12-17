@@ -1,0 +1,56 @@
+body {
+	background: url(images/background.jpg);
+}
+#menu {
+	background: url(images/background_left.jpeg);
+}
+#list_menu {
+	font-size: 18;
+	font-style: bold;
+}
+h1 {
+	font-size: 40;
+	text-align: center;
+	color: red;
+	font-style: italic;
+	text-decoration: underline;
+	letter-spacing: 10;
+}
+#img_main {
+	width: 30%;
+	float: left;
+}
+#wellcome_text {
+	text-align: center;
+	font-size: 30;
+	color: navy;
+	font-style: italic;
+}
+#about {
+	width: 45%;
+	border-width: 1;
+    border-color: black;
+    border-style: solid;
+	float: left;
+	margin-top: 10;
+}
+#list_menu li{
+	background-color: antiquewhite;
+	padding: 10px;
+	margin-bottom: 5px;
+	border-radius: 20px;
+	text-align: center;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: brown;
+}
+
+#list_menu li:hover{
+ background-color: aquamarine;
+ font-size: larger;
+ transition: 1s;
+}

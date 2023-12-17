@@ -1,0 +1,40 @@
+﻿body {
+	background-color: black;
+}
+img {
+	width: 100%;
+}
+ul {
+	background-color: #ffff99;
+	margin: 0;
+	list-style-type: none;
+	padding: 0;
+}
+li {
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	width: 110px;
+	display: inline-block;
+	padding: 5px;
+	margin: 4px;
+}
+li{
+	background-color:#4477a1;
+	padding: 10px;
+	margin-left: 10px;
+	border-radius: 6px;
+	text-align: center;
+}
+ ul{
+	list-style-type: none;
+ }
+  a{
+	text-decoration: none;
+	color: white;
+  }
+  li:hover{
+	background-color: #81a8cb;
+	font-size:larger;
+	transition:1s;
+  }
