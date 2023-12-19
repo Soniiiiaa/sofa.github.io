@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>Анкета на підключення інтернету</h1>
+<form>
+   <div>
+   <label>ПІП</label>
+      <input type="text" placeholder="Прізвище Ім'я По Батькові">
+   </div>
+   <div>
+      <label id="pass">Пароль</label>
+      <input type="password" placeholder="Придумайте пароль" id="pass">
+   </div>
+   <div>
+      <label>Провайдер</label>
+      <input type="text" disabled="disabled" placeholder="Internet">
+   </div>
+   <div>
+      <label>Тарифи</label>
+      <select>
+         <option>4Мбіт/с</option>
+         <option>10Мбіт/с</option>
+         <option>25Мбіт/с</option>
+         <option>50Мбіт/с</option>
+      </select>
+   </div>
+   <div>
+      <label>Додаткові послуги</label>
+      <ul>
+         <li>
+           <label> <input type="checkbox"/>Реальний статичний ІР</label>
+        </li>
+        <li>  
+        <label> <input type="checkbox"/>Відкладений платіж</label>
+        </li>
+        <li>
+           <label><input type="checkbox" disabled="disabled"/>Переоформлення договору</label>
+        </li>
+      </ul>
+   </div>
+   <div>
+      <label>Перемикачі</label>
+      <ul>
+         <li>
+           <label> <input type="radio" name="radio1"/>Кабельне</label>
+        </li>
+        <li>  
+        <label> <input type="radio" name="radio1"/>Оптоволоконне(договірне)</label>
+        </li>
+        <li>
+           <label><input type="radio" name="radio1" disabled="disabled"/>Бездротове</label>
+        </li>
+      </ul>
+   </div>
+   <div>
+      <label>Завантажити заяву</label>
+      <input type="file">
+   <div>
+      <label>Додатково</label>
+      <textarea></textarea>
+   </div>
+   <div>
+      <button type="submit">Відправити</button>
+      <button type="reset">Очиститиц</button>
+   </div>
+</form>
+</body>
+</html>
