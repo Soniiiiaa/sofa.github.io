@@ -28,3 +28,47 @@
     height: fit-content;
   }
 }
+
+@media screen and (max-width: 391px) {
+  .titles {
+    flex-direction: column;
+    align-items: center;
+  }   
+.main_text p {
+  width: 60%;
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+.title_1 p {
+  text-align: center;
+}
+.title_2 p {
+  text-align: center;
+}
+.title_3 p {
+  text-align: center;
+}
+.container div{
+  height: 30%;
+  width: auto;
+}
+.container div h4{
+  font-size: smaller;
+}
+#massage{
+  width: auto;
+}
+.header_main h1 {
+  font-size: 30px;
+}
+.new_send {
+  display: flex;
+  justify-content: space-around;
+}
+.logoo {
+  width: 60%;
+  margin: 10px;
+}
+}
